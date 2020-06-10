@@ -1,0 +1,17 @@
+{
+  "name": "price-scrapper-flipkart",
+  "version": "1.0.0",
+  "description": "scrapping prices",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adithya kamath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "puppeteer": "^3.3.0"
+  }
+}

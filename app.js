@@ -7,10 +7,11 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.get('/',(req,res)=>{
-    res.send({
+    res.status(200).send({
         message: 'Welcome to the API'
     });
 });
+
 app.get('/prices', async (req,res)=>{
     
    try{
